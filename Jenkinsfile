@@ -13,6 +13,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 echo %Parametro%
+            }
         }
         stage('Test') {
             steps {
