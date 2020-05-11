@@ -12,8 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                echo ${params.Parametro}
-            }
+                echo %Parametro%
         }
         stage('Test') {
             steps {
