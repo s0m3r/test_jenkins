@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                echo "%Parametro%"
+                print "DEBUG: parameter foo = ${Parametro}"
             }
         }
         stage('Deploy') {
