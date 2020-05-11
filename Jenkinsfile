@@ -11,14 +11,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                script{
-                    echo 'Building..'
-                    if [ ${params.Parametro} == 'Option1' ]; then
-                    echo "Elegiste opcion 1"
-                    else
-                    echo "Eligiste opcion 2"
-                    fi
-                }
+                echo 'Building..'
+                echo ${params.Parametro}
             }
         }
         stage('Test') {
