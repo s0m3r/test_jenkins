@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Corriendo Jenkinsfile nuevo'
+                echo 'corriendo Jenkinsfile viejo'
             }
         }
         stage('Test') {
