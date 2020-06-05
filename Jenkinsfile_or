@@ -19,6 +19,7 @@ pipeline {
                         echo 'Se a selecionado la primera o segunda opcion o tercera'
                     } else if ("${VERSION}" == '1.4.0') {
                         echo 'Se a selecionado la cuarta opcion'
+                        #linea comentada
                     } else {
                         echo 'Se a selecionado la quinta opcion'
                     }
